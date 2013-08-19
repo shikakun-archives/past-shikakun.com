@@ -1,0 +1,100 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    chunky_png (1.2.8)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.3)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    faraday (0.8.7)
+      multipart-post (~> 1.1)
+    fssm (0.2.10)
+    haml (4.0.3)
+      tilt
+    hashie (2.0.5)
+    hike (1.2.3)
+    httpclient (2.3.3)
+    kgio (2.8.0)
+    multi_json (1.7.6)
+    multipart-post (1.2.0)
+    mysql2 (0.3.11)
+    oauth (0.4.7)
+    omniauth (1.1.4)
+      hashie (>= 1.2, < 3)
+      rack
+    omniauth-oauth (1.0.1)
+      oauth
+      omniauth (~> 1.0)
+    omniauth-twitter (0.0.16)
+      multi_json (~> 1.3)
+      omniauth-oauth (~> 1.0)
+    rack (1.5.2)
+    rack-protection (1.5.0)
+      rack
+    raindrops (0.11.0)
+    sass (3.2.10)
+    sequel (3.48.0)
+    simple-rss (1.2.3)
+    simple_oauth (0.2.0)
+    sinatra (1.4.2)
+      rack (~> 1.5, >= 1.5.2)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    sinatra-flash (0.3.0)
+      sinatra (>= 1.0.0)
+    slim (2.0.0)
+      temple (~> 0.6.5)
+      tilt (~> 1.3, >= 1.3.3)
+    sprockets (2.10.0)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-helpers (1.0.1)
+      sprockets (~> 2.0)
+    sprockets-sass (1.0.1)
+      sprockets (~> 2.0)
+      tilt (~> 1.1)
+    sqlite3 (1.3.7)
+    temple (0.6.5)
+    tilt (1.4.1)
+    twitter (4.7.0)
+      faraday (~> 0.8, < 0.10)
+      multi_json (~> 1.0)
+      simple_oauth (~> 0.2)
+    unicorn (4.6.2)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+    yui-compressor (0.11.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  coffee-script
+  compass
+  haml
+  httpclient
+  mysql2
+  omniauth
+  omniauth-twitter
+  sass
+  sequel
+  simple-rss
+  sinatra
+  sinatra-flash
+  slim
+  sprockets
+  sprockets-helpers
+  sprockets-sass
+  sqlite3
+  twitter (~> 4.0)
+  unicorn
+  yui-compressor
